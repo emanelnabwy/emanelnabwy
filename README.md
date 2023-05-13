@@ -1,5 +1,5 @@
 ## ⚡ Connect with me 
-![](https://img.shields.io/badge/-Eman%20El-Nabwy-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/eman-el-nabwy-245462195/)
+![](https://img.shields.io/badge/-Eman%20ElNabwy-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/eman-el-nabwy/)
 
 ## Technologies 🛠 
 
