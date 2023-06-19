@@ -1,22 +1,23 @@
 pipeline {
     agent any
     stages {
-        stage("build") {
+        stage("run fortend") {
            steps {
-              echo " application is building ......" 
-              echo " application is building ......"  
+              echo " execting yarn ......"
+              nodejs ("node10.17") {
+                   sh 'yarn install'
+               }
                
            }   
          }
-        stage("test") {
+        stage("run backend") {
             steps {
-               echo " application is testing ......"
+               echo " execting gradle......"
+               withgradle (){
+                   sh './gradlew -v'
+                }
             }    
-         }
-        stage("deploy") {
-            steps { 
-                echo " application is deploy ......"
-            }    
+            
          }
     }
 }
